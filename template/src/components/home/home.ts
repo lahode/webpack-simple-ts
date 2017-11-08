@@ -7,6 +7,6 @@ import './home.scss';
     template: require('./home.html')
 })
 export class HomeComponent extends Vue {
-    msg: string = 'Welcome to Your Vue.js App'
+    msg: string = 'Welcome to Your Vue.js App';
     mode: any = process.env.ENV;
 }
