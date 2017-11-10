@@ -1,9 +1,9 @@
 import Vue from 'vue';
-import { HomeComponent } from './components/home';
+import { AppComponent } from './components/app';
 
 import './sass/main.scss';
 
 new Vue({
   el: '#app',
-  render: h => h(HomeComponent)
+  render: h => h(AppComponent)
 });
