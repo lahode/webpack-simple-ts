@@ -18,10 +18,9 @@
     "serve": "http-server dist/ -o"
   },
   "dependencies": {
-    "vue": "~2.5.3",
+    "@types/vue": "^2.0.0",
     "vue-class-component": "~6.1.0",
-    "vue-property-decorator": "~6.0.0",
-    "vue-router": "~3.0.1"
+    "vue-property-decorator": "~6.0.0"
   },
   "devDependencies": {
     "@types/node": "~8.0.47",
